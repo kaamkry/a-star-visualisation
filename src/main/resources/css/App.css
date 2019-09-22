@@ -1,0 +1,60 @@
+.button{
+    -fx-background-radius: 30;
+}
+.lg{
+    -fx-font-size: 20;
+}
+.sm{
+    -fx-font-size: 15;
+}
+
+
+.start-button{
+    -fx-background-color: #62A632;
+
+}
+.start-button:hover{
+-fx-background-color: #538C2A;
+}
+.start-button:pressed{
+    -fx-background-color: #3C661F;
+}
+
+.exit-button{
+    -fx-background-color: #A6271E;
+
+}
+.exit-button:hover{
+    -fx-background-color: #8C322D;
+}
+.exit-button:pressed{
+    -fx-background-color: #652320;
+}
+
+.reset-button{
+    -fx-background-color: #87878C;
+
+}
+.reset-button:hover{
+    -fx-background-color: #6E6E73;
+}
+.reset-button:pressed{
+    -fx-background-color: #49494D;
+}
+
+.slider{
+    -fx-padding: 20 0 0 0 ;
+-fx-font-size: 15;
+}
+.slider .track {
+    -fx-pref-height:10;
+}
+.slider .thumb {
+    -fx-pref-height: 15;
+    -fx-pref-width: 15;
+}
+.slider .axis{
+    -fx-font-size: 10;
+    -fx-tick-label-fill: ghostwhite;
+
+}
